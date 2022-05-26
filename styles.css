@@ -56,7 +56,7 @@ nav{
   }
   /*design of the Icons */
   .fa-facebook{
-     color: white;
+     color:gray;
      padding: 2%;
      margin-top: 5%;
      margin-bottom: auto;
@@ -68,7 +68,7 @@ nav{
      color: #FFA346;
   }
   .fa-twitter-square{
-    color: white;
+    color:gray;
     position: relative;
      padding: 2%;
      margin-top: 5%;
@@ -80,7 +80,7 @@ nav{
       color: #FFA346;
   }
   .fa-instagram-square{
-    color: white;
+    color: gray;
     position: relative;
      padding: 2%;
      margin-top: 5%;
@@ -92,7 +92,7 @@ nav{
       color: #FFA346;
   }
   .fa-behance-square{
-    color: white;
+    color: gray;
     padding: 2%;
     position: relative;
     margin-top: 5%;
