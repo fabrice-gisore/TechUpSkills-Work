@@ -16,7 +16,7 @@ nav{
     text-decoration: none;
     font-size: 14px;
   }
-  h1{
+  .h1{
       color: white;
       padding: 1%;
       margin:2%;
@@ -37,7 +37,7 @@ nav{
 .container {
    overflow: hidden;
 }
-  p{
+  .p{
       color: white;
       padding: 3%;
       margin-top: 2%;
@@ -51,7 +51,7 @@ nav{
       text-align: center;
       font-size: 14px;
       height: 120%;
-      width: 85%;
+      width: 100%;
       padding: 140px 100px; 
   }
   /*design of the Icons */
@@ -128,7 +128,7 @@ img{
     background-color: FEFEFE;
 }
 .p{
-    color: gray;
+    color: white;
     font-size: 10px;
 }
 button{
@@ -213,8 +213,103 @@ i{
 .work-img{
     width: 80%;
 }
-
-
-
-
-
+/*Design of the contact page*/
+*{
+    box-sizing: border-box;
+  }
+  body{
+      background-color: white;
+  }
+  .container{
+    background-color: white;
+  }
+  .column {
+    float: left;
+    padding: 10px;
+    height: auto;
+  }
+  
+  .left {
+    width: 60%;
+  }
+  
+  .right {
+    width: 40%;
+    border-left: 2px rgb(113, 111, 111) solid;
+  }
+  .row {
+      width: 80%;
+      margin: 0 auto; /* Added */
+      float: none; /* Added */
+      margin-bottom: 10px; /* Added */
+      background-color: white;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: white;
+  }
+  .name-input {
+      border:none;
+      border-bottom: 2px rgb(67, 65, 65) solid;
+      background-color: transparent;
+      padding: 10px;
+  }
+  .name1 {
+      display: flex;
+  }
+  .lt-mag {
+      margin-left: 15px;
+  }
+  .max {
+      width: 80%;
+  }
+  .para {
+      width: 70%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  h1 {
+      font-size: 42px;
+  }
+  h3 {
+      font-size: 28px;
+  }
+  button {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: rgb(20, 20, 20);
+      border: none;
+  }
+  button:hover {
+      background-color: coral;
+  }
+  .mg-left{
+      margin-left: 20px;
+  }
+  .text-contact{
+      color: rgb(196, 189, 189);
+      font-size: 15px;
+    }
+    .hello{
+        color:  rgb(196, 189, 189);
+        font-size: 15px;
+        padding: 50px;
+    }
+   /*Testimonial*/
+   .texts{
+       color: rgb(160, 157, 157);
+       text-align: center;
+   }
+   .h3{
+       color: rgb(22, 22, 22);
+       text-align: center;
+   }
+   .h-1{
+       text-align: center;
+       color: rgb(59, 59, 59);
+       margin: 100px;
+   }
+   .section1{
+       background-color: rgb(252, 249, 249);
+   }
